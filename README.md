@@ -4,16 +4,25 @@ MCU
 
 **Commandes Git Essentielles**
 
-git init	Initialisation. Transforme le dossier courant en dépôt Git local. (À faire une seule fois par projet.)	git init
-git status	Vérification. Affiche l'état des fichiers (modifiés, ajoutés, non suivis).	git status
-git add .	Staging. Ajoute tous les fichiers modifiés/nouveaux à la zone de préparation pour le commit.	git add .
-git commit -m "message"	Sauvegarde Locale. Enregistre officiellement les changements dans l'historique local. Le message doit décrire la modification.	git commit -m "feat: ajout du formulaire de contact"
-git push origin main	Sauvegarde Distante. Envoie les commits locaux de la branche main vers le dépôt GitHub (origin).	git push origin main
-git pull origin main	Mise à Jour. Télécharge et fusionne les dernières modifications depuis GitHub vers votre dépôt local.	git pull origin main
-git branch	Branche. Affiche toutes les branches locales.	git branch
-git checkout -b <nom>	Nouvelle Branche. Crée une nouvelle branche de travail et bascule immédiatement dessus.	git checkout -b feature-nouvelle-page
-git checkout <nom>	Changement de Branche. Bascule vers une branche existante.	git checkout main
-git merge <branche>	Fusion. Intègre les changements d'une branche dans la branche actuelle (par exemple, fusionner la branche de fonctionnalité dans main).	git merge feature-contact
+git init	Initialisation. Transforme le dossier courant en dépôt Git local. (À faire une seule fois par projet.)	"git init"
+
+git status	Vérification. Affiche l'état des fichiers (modifiés, ajoutés, non suivis).	"git status"
+
+git add .	Staging. Ajoute tous les fichiers modifiés/nouveaux à la zone de préparation pour le commit.	"git add ."
+
+git commit -m "message"	Sauvegarde Locale. Enregistre officiellement les changements dans l'historique local. Le message doit décrire la modification.	"git commit -m "feat: ajout du formulaire de contact""
+
+git push origin main	Sauvegarde Distante. Envoie les commits locaux de la branche main vers le dépôt GitHub (origin).	"git push origin main"
+
+git pull origin main	Mise à Jour. Télécharge et fusionne les dernières modifications depuis GitHub vers votre dépôt local.	"git pull origin main"
+
+git branch	Branche. Affiche toutes les branches locales.	"git branch"
+
+git checkout -b <nom>	Nouvelle Branche. Crée une nouvelle branche de travail et bascule immédiatement dessus.	"git checkout -b feature-nouvelle-page"
+
+git checkout <nom>	Changement de Branche. Bascule vers une branche existante.	"git checkout main"
+
+git merge <branche>	Fusion. Intègre les changements d'une branche dans la branche actuelle (par exemple, fusionner la branche de fonctionnalité dans main).	"git merge feature-contact"
 
 
 **Le Workflow de Branche**
